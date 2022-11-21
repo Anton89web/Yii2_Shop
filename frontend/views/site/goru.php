@@ -1,3 +1,14 @@
+<?php
+
+/** @var yii\web\View $this */
+
+use yii\helpers\Html;
+
+$this->title = 'goru';
+$this->params['breadcrumbs'][] = $this->title;
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,33 +17,33 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Include All CSS -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="assets/css/themewar-icons.css"/>
-        <link rel="stylesheet" href="assets/css/flaticon.css"/>
-        <link rel="stylesheet" href="assets/css/animate.css"/>
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="assets/css/settings.css">
-        <link rel="stylesheet" href="assets/css/lightcase.css">
-        <link rel="stylesheet" href="assets/css/preset.css"/>
-        <link rel="stylesheet" href="assets/css/ignore_in_wp.css"/>
-        <link rel="stylesheet" href="assets/css/theme.css"/>
-        <link rel="stylesheet" href="assets/css/responsive.css"/>
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="/assets/css/themewar-icons.css"/>
+        <link rel="stylesheet" href="/assets/css/flaticon.css"/>
+        <link rel="stylesheet" href="/assets/css/animate.css"/>
+        <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="/assets/css/settings.css">
+        <link rel="stylesheet" href="/assets/css/lightcase.css">
+        <link rel="stylesheet" href="/assets/css/preset.css"/>
+        <link rel="stylesheet" href="/assets/css/ignore_in_wp.css"/>
+        <link rel="stylesheet" href="/assets/css/theme.css"/>
+        <link rel="stylesheet" href="/assets/css/responsive.css"/>
         <!-- End Include All CSS -->
 
         <!-- Favicon Icon -->
-        <link rel="icon"  type="image/png" href="assets/images/favicon.png">
+        <link rel="icon"  type="image/png" href="/assets/gory/assets/images/favicon.png">
         <!-- Favicon Icon -->
     </head>
     <body>
         <!-- Preloader Start -->
-        <div class="preloader" id="preloader">
+        <!-- <div class="preloader" id="preloader">
             <div class="la-ball-scale-multiple la-2x">
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
-        </div>
+        </div> -->
         <!-- Preloader End -->
 
         <!-- Header Start -->
@@ -42,7 +53,7 @@
                     <div class="col-lg-2 col-md-2">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="assets/images/logo.png" alt="Goru"/>
+                                <img src="/assets/gory/assets/images/logo.png" alt="Goru"/>
                             </a>
                         </div>
                     </div>
@@ -96,10 +107,10 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="header-cogs">
                             <a class="search search-toggles" href="javascript:void(0);"><i class="twi-search"></i></a>
-                            <a class="select-country" href="javascript:void(0);"><img src="assets/images/flag.png" alt=""/>Eng</a>
+                            <a class="select-country" href="javascript:void(0);"><img src="/assets/gory/assets/images/flag.png" alt=""/>Eng</a>
                             <a class="select-currency" href="javascript:void(0);"><i class="twi-dollar-sign"></i>Usd</a>
                             <a class="user-login" href="javascript:void(0);"><i class="twi-user-circle"></i><span>Account</span></a>
-                            <a class="carts" href="javascript:void(0);"><span>4</span><img src="assets/images/cart.png" alt=""></a>
+                            <a class="carts" href="javascript:void(0);"><span>4</span><img src="assets/gory/assets/images/cart.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -128,7 +139,7 @@
         <section class="slider-01">
 
             <!-- Scroll Btn -->
-            <div class="scroll-down"><a href="#coupone">scroll to explore</a><img src="assets/images/home/scroll.png" alt=""></div>
+            <div class="scroll-down"><a href="#coupone">scroll to explore</a><img src="assets/gory/assets/images/home/scroll.png" alt=""></div>
             <!-- Scroll Btn -->
 
             <!-- Counting Item -->
@@ -254,7 +265,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,25]"
 
-                                 style="z-index: 5;"><img src="assets/images/home/layer1.jpg" alt="">
+                                 style="z-index: 5;"><img src="assets/gory/assets/images/home/layer1.jpg" alt="">
                             </div>
                         </li>
                         <li class="rev-slidebg">
@@ -369,7 +380,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,25]"
 
-                                 style="z-index: 5;"><img src="assets/images/home/layer1.jpg" alt="">
+                                 style="z-index: 5;"><img src="assets/gory/assets/images/home/layer1.jpg" alt="">
                             </div>
                         </li>
                         <li class="rev-slidebg">
@@ -484,7 +495,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,25]"
 
-                                 style="z-index: 5;"><img src="assets/images/home/layer1.jpg" alt="">
+                                 style="z-index: 5;"><img src="assets/gory/assets/images/home/layer1.jpg" alt="">
                             </div>
                         </li>
                         <li class="rev-slidebg">
@@ -599,7 +610,7 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,25]"
 
-                                 style="z-index: 5;"><img src="assets/images/home/layer1.jpg" alt="">
+                                 style="z-index: 5;"><img src="assets/gory/assets/images/home/layer1.jpg" alt="">
                             </div>
                         </li>
                     </ul>
@@ -674,7 +685,7 @@
             </div>
 
             <!-- shpage -->
-            <div class="cate-shage"><img src="assets/images/home/shape1.png" alt=""></div>
+            <div class="cate-shage"><img src="assets/gory/assets/images/home/shape1.png" alt=""></div>
         </section>
         <!-- Categories Section End -->
 
@@ -684,21 +695,21 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="single-service">
-                            <img src="assets/images/home/truck.png" alt="">
+                            <img src="assets/gory/assets/images/home/truck.png" alt="">
                             <h4>100% Free Shipping</h4>
                             <p>We ship all our products for free as long as you buying within the USA.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="single-service">
-                            <img src="assets/images/home/headphone.png" alt="">
+                            <img src="assets/gory/assets/images/home/headphone.png" alt="">
                             <h4>24/7 Support</h4>
                             <p>Our support team is extremely active, you will get response within 2 minutes.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="single-service">
-                            <img src="assets/images/home/undo.png" alt="">
+                            <img src="assets/gory/assets/images/home/undo.png" alt="">
                             <h4>30 Day Return</h4>
                             <p>Our 30 day return program is open from customers, just fill up a simple form.</p>
                         </div>
@@ -731,7 +742,7 @@
                                 <div class="col-lg-7 col-md-7">
                                     <div class="single-trending-product">
                                         <div class="trend-thumb">
-                                            <img src="assets/images/home/t1.jpg" alt="">
+                                            <img src="assets/gory/assets/images/home/t1.jpg" alt="">
                                         </div>
                                         <div class="tr-pro-detail">
                                             <h3>
@@ -752,7 +763,7 @@
                                 <div class="col-lg-5 col-md-5">
                                     <div class="single-trending-product">
                                         <div class="trend-thumb">
-                                            <img src="assets/images/home/t2.jpg" alt="">
+                                            <img src="assets/gory/assets/images/home/t2.jpg" alt="">
                                         </div>
                                         <div class="tr-pro-detail">
                                             <h3>
@@ -775,7 +786,7 @@
                                 <div class="col-lg-5 col-md-5">
                                     <div class="single-trending-product">
                                         <div class="trend-thumb">
-                                            <img src="assets/images/home/t2.jpg" alt="">
+                                            <img src="assets/gory/assets/images/home/t2.jpg" alt="">
                                         </div>
                                         <div class="tr-pro-detail">
                                             <h3>
@@ -796,7 +807,7 @@
                                 <div class="col-lg-7 col-md-7">
                                     <div class="single-trending-product">
                                         <div class="trend-thumb">
-                                            <img src="assets/images/home/t1.jpg" alt="">
+                                            <img src="assets/gory/assets/images/home/t1.jpg" alt="">
                                         </div>
                                         <div class="tr-pro-detail">
                                             <h3>
@@ -856,7 +867,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p1.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p1.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -877,7 +888,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p4.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p4.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -900,7 +911,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p2.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p2.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="hot">Hot</p>
                                                 </div>
@@ -920,7 +931,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p5.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p5.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>TV Monitor Screen</h4>
@@ -939,7 +950,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p6.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p6.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="out-of-stock">Out of Stock</p>
                                                 </div>
@@ -960,7 +971,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p3.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p3.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>Gaming Controller</h4>
@@ -980,7 +991,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p6.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p6.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="out-of-stock">Out of Stock</p>
                                                 </div>
@@ -1001,7 +1012,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p3.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p3.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>Gaming Controller</h4>
@@ -1021,7 +1032,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p1.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p1.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1042,7 +1053,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p4.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p4.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1065,7 +1076,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p2.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p2.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="hot">Hot</p>
                                                 </div>
@@ -1085,7 +1096,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p5.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p5.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>TV Monitor Screen</h4>
@@ -1108,7 +1119,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p6.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p6.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1129,7 +1140,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p5.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p5.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1152,7 +1163,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p4.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p4.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="hot">Hot</p>
                                                 </div>
@@ -1172,7 +1183,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p3.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p3.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>TV Monitor Screen</h4>
@@ -1191,7 +1202,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p2.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p2.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="out-of-stock">Out of Stock</p>
                                                 </div>
@@ -1212,7 +1223,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p1.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p1.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>Gaming Controller</h4>
@@ -1232,7 +1243,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p6.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p6.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="out-of-stock">Out of Stock</p>
                                                 </div>
@@ -1253,7 +1264,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p3.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p3.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>Gaming Controller</h4>
@@ -1273,7 +1284,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p1.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p1.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1294,7 +1305,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p4.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p4.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1317,7 +1328,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p2.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p2.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="hot">Hot</p>
                                                 </div>
@@ -1337,7 +1348,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p5.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p5.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>TV Monitor Screen</h4>
@@ -1360,7 +1371,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p2.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p2.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1381,7 +1392,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p3.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p3.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1404,7 +1415,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p4.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p4.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="hot">Hot</p>
                                                 </div>
@@ -1424,7 +1435,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p1.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p1.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>TV Monitor Screen</h4>
@@ -1443,7 +1454,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p5.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p5.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="out-of-stock">Out of Stock</p>
                                                 </div>
@@ -1464,7 +1475,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p6.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p6.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>Gaming Controller</h4>
@@ -1484,7 +1495,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p6.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p6.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="out-of-stock">Out of Stock</p>
                                                 </div>
@@ -1505,7 +1516,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p3.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p3.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>Gaming Controller</h4>
@@ -1525,7 +1536,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p1.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p1.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1546,7 +1557,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p4.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p4.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1569,7 +1580,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p2.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p2.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="hot">Hot</p>
                                                 </div>
@@ -1589,7 +1600,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p5.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p5.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>TV Monitor Screen</h4>
@@ -1612,7 +1623,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p5.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p5.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1633,7 +1644,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p6.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p6.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1656,7 +1667,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p1.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p1.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="hot">Hot</p>
                                                 </div>
@@ -1676,7 +1687,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p2.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p2.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>TV Monitor Screen</h4>
@@ -1695,7 +1706,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p3.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p3.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="out-of-stock">Out of Stock</p>
                                                 </div>
@@ -1716,7 +1727,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p4.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p4.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>Gaming Controller</h4>
@@ -1736,7 +1747,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p6.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p6.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="out-of-stock">Out of Stock</p>
                                                 </div>
@@ -1757,7 +1768,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p3.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p3.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>Gaming Controller</h4>
@@ -1777,7 +1788,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p1.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p1.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1798,7 +1809,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p4.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p4.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1821,7 +1832,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p2.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p2.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="hot">Hot</p>
                                                 </div>
@@ -1841,7 +1852,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p5.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p5.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>TV Monitor Screen</h4>
@@ -1864,7 +1875,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p4.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p4.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1885,7 +1896,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p3.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p3.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -1908,7 +1919,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p1.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p1.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="hot">Hot</p>
                                                 </div>
@@ -1928,7 +1939,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p2.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p2.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>TV Monitor Screen</h4>
@@ -1947,7 +1958,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p5.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p5.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="out-of-stock">Out of Stock</p>
                                                 </div>
@@ -1968,7 +1979,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p6.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p6.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>Gaming Controller</h4>
@@ -1988,7 +1999,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p6.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p6.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="out-of-stock">Out of Stock</p>
                                                 </div>
@@ -2009,7 +2020,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p3.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p3.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>Gaming Controller</h4>
@@ -2029,7 +2040,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p1.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p1.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -2050,7 +2061,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p4.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p4.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="sale">Sale</p>
                                                 </div>
@@ -2073,7 +2084,7 @@
                                     <div class="pp-single-slider">
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p2.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p2.jpg" alt="">
                                                 <div class="pro-badge">
                                                     <p class="hot">Hot</p>
                                                 </div>
@@ -2093,7 +2104,7 @@
                                         </div>
                                         <div class="single-popular-product">
                                             <div class="sp-thumb">
-                                                <img src="assets/images/home/p5.jpg" alt="">
+                                                <img src="assets/gory/assets/images/home/p5.jpg" alt="">
                                             </div>
                                             <div class="sp-details">
                                                 <h4>TV Monitor Screen</h4>
@@ -2141,14 +2152,14 @@
                     </div>
                     <div class="col-lg-6 col-md-7">
                         <div class="dis-pro-thumb">
-                            <img src="assets/images/home/1.jpg" alt="">
+                            <img src="assets/gory/assets/images/home/1.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- shape -->
-            <div class="couple-shape"><img src="assets/images/home/shape3.png" alt=""></div>
+            <div class="couple-shape"><img src="assets/gory/assets/images/home/shape3.png" alt=""></div>
         </section>
         <!-- Coupon Discount End -->
 
@@ -2181,7 +2192,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-news">
                             <div class="news-thumb">
-                                <img src="assets/images/home/blog/1.jpg" alt="">
+                                <img src="assets/gory/assets/images/home/blog/1.jpg" alt="">
                             </div>
                             <div class="news-details">
                                 <span class="post-meta"><a href="#">In TV</a>, 1 week a go</span>
@@ -2198,7 +2209,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-news">
                             <div class="news-thumb">
-                                <img src="assets/images/home/blog/2.jpg" alt="">
+                                <img src="assets/gory/assets/images/home/blog/2.jpg" alt="">
                             </div>
                             <div class="news-details">
                                 <span class="post-meta"><a href="#">In Smartwatch</a>, 1 week a go</span>
@@ -2215,7 +2226,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-news">
                             <div class="news-thumb">
-                                <img src="assets/images/home/blog/3.jpg" alt="">
+                                <img src="assets/gory/assets/images/home/blog/3.jpg" alt="">
                             </div>
                             <div class="news-details">
                                 <span class="post-meta"><a href="#">In Drones</a>, 1 week a go</span>
@@ -2245,16 +2256,16 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="client-logo owl-carousel">
-                            <a href="#"><img src="assets/images/home/client-logo/1.png" alt=""></a>
-                            <a href="#"><img src="assets/images/home/client-logo/2.png" alt=""></a>
-                            <a href="#"><img src="assets/images/home/client-logo/3.png" alt=""></a>
-                            <a href="#"><img src="assets/images/home/client-logo/4.png" alt=""></a>
-                            <a href="#"><img src="assets/images/home/client-logo/5.png" alt=""></a>
-                            <a href="#"><img src="assets/images/home/client-logo/1.png" alt=""></a>
-                            <a href="#"><img src="assets/images/home/client-logo/2.png" alt=""></a>
-                            <a href="#"><img src="assets/images/home/client-logo/3.png" alt=""></a>
-                            <a href="#"><img src="assets/images/home/client-logo/4.png" alt=""></a>
-                            <a href="#"><img src="assets/images/home/client-logo/5.png" alt=""></a>
+                            <a href="#"><img src="assets/gory/assets/images/home/client-logo/1.png" alt=""></a>
+                            <a href="#"><img src="assets/gory/assets/images/home/client-logo/2.png" alt=""></a>
+                            <a href="#"><img src="assets/gory/assets/images/home/client-logo/3.png" alt=""></a>
+                            <a href="#"><img src="assets/gory/assets/images/home/client-logo/4.png" alt=""></a>
+                            <a href="#"><img src="assets/gory/assets/images/home/client-logo/5.png" alt=""></a>
+                            <a href="#"><img src="assets/gory/assets/images/home/client-logo/1.png" alt=""></a>
+                            <a href="#"><img src="assets/gory/assets/images/home/client-logo/2.png" alt=""></a>
+                            <a href="#"><img src="assets/gory/assets/images/home/client-logo/3.png" alt=""></a>
+                            <a href="#"><img src="assets/gory/assets/images/home/client-logo/4.png" alt=""></a>
+                            <a href="#"><img src="assets/gory/assets/images/home/client-logo/5.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -2282,7 +2293,7 @@
             </div>
 
             <!-- shape -->
-            <div class="mailchimp-shape"><img src="assets/images/home/shape4.png" alt=""></div>
+            <div class="mailchimp-shape"><img src="assets/gory/assets/images/home/shape4.png" alt=""></div>
         </section>
         <!-- Mailchimp Section End -->
 
@@ -2293,7 +2304,7 @@
                     <div class="col-lg-3 col-md-4">
                         <aside class="widget about-widget">
                             <div class="foo-logo">
-                                <a href="index.html"><img src="assets/images/logo.png" alt=""/></a>
+                                <a href="index.html"><img src="assets/gory/assets/images/logo.png" alt=""/></a>
                             </div>
                             <p>
                                 Sed ut perspiciatis unde omnis iste natus er sit voluptatem accusantium dolore.ea commo

@@ -15,7 +15,7 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
-
+// use app/models/comics;
 /**
  * Site controller
  */
@@ -74,13 +74,14 @@ class SiteController extends Controller
      * @return mixed
      */
     public function actionIndex()
-    {
-        return $this->render('index');
+    {   
+        $book_model = comics::find()->all();
+        return $this->render('index', ['books' => $book_model]);
     }
 
-    public function actionKarma()
+    public function actionGoru()
     {
-        return $this->render('karma');
+        return $this->render('goru');
     }
 
     /**

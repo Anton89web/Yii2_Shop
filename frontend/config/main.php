@@ -45,7 +45,9 @@ return [
                 'about' => 'site/about',
                 'contact' => 'site/contact',
                 'signup' => 'site/signup',
-                'karma' => 'site/karma'
+                'goru' => 'site/goru',
+                'login' => 'site/login',
+                'logout' => 'site/logout'
             ],
         ],
     ],
